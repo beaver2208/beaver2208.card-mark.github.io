@@ -1,0 +1,58 @@
+ body {
+     background: linear-gradient(to bottom, #CDBE70, #EEDC82)
+ }
+ 
+ .wrapper {
+     background: green;
+     width: 70%;
+     height: 560px;
+     margin: 30px auto;
+     border-radius: 15px;
+     box-shadow: inset 0px 0px 30px 5px #000;
+     padding-top: 20px;
+ }
+ 
+ table {
+     font: 35px Verdana, sans-serif;
+     border: solid 3px #fff;
+     border-spacing: 0;
+     margin: 20px auto;
+     border-radius: 7px;
+ }
+ 
+ td {
+     border: solid 1px #fff;
+     border-spacing: 0;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .red {
+     color: red;
+ }
+ 
+ .selected {
+     opacity: 0.18;
+     background: #fff;
+ }
+ 
+ .buttons {
+     width: 250px;
+     margin: 0 auto;
+ }
+ 
+ #reset,
+ #prev,
+ #next {
+     width: 75px;
+     height: 30px;
+     cursor: pointer;
+     font-size: 18px;
+ }
+ 
+ .cardCount {
+     font: 20px Verdana;
+     color: #fff;
+     width: 190px;
+     margin: 10px auto;
+ }
